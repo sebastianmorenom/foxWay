@@ -6,10 +6,10 @@ var angularModule = angular.module('foxWay', ['ngRoute']);
 
     $routeProvider
         .when('/home', {
-            templateUrl: '/views/home.html',
+            templateUrl: '/views/1.html',
         })
         .when('/page1', {
-            templateUrl: '/views/page1.html',
+            templateUrl: '/views/2.html',
         })
         .otherwise({
             redirectTo: '/home'
